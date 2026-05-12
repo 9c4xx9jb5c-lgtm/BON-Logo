@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brittany Ochoa | Logo Showcase</title>
+    <!-- Favicon for the browser tab -->
+    <link rel="icon" type="image/png" href="Images/Favicon.png">
+    <!-- Bootstrap CSS CDN -->
+    <link href="https://jsdelivr.net" rel="stylesheet">
+    <style>
+        .logo-card { padding: 60px 20px; border-radius: 12px; text-align: center; height: 100%; transition: transform 0.2s; }
+        .logo-card:hover { transform: translateY(-5px); }
+        .bg-dark-section { background-color: #121212; color: #ffffff; }
+        /* High-res scaling: max-width keeps them crisp */
+        .brand-logo { max-width: 300px; width: 100%; height: auto; }
+        /* Zoomed favicon display for showcase purposes */
+        .favicon-preview { width: 100px; height: 100px; object-fit: contain; }
+        .usage-text { font-size: 0.9rem; margin-top: 20px; color: #6c757d; }
+        .bg-dark-section .usage-text { color: #adb5bd; }
+    </style>
+</head>
+<body class="bg-light">
+
+<div class="container py-5">
+    <header class="text-center mb-5">
+        <h1 class="fw-bold">Visual Identity Variations</h1>
+        <p class="text-muted">Polished Logo Assignment - Brittany Ochoa</p>
+    </header>
+
+    <div class="row g-4">
+        <!-- 1. Black and White -->
+        <div class="col-md-6">
+            <div class="logo-card border bg-white">
+                <h5 class="mb-4">Black & White Version</h5>
+                <img src="Images/Logo-bw.png" alt="B&W Logo" class="brand-logo">
+                <p class="usage-text"><strong>Configuration:</strong> High-contrast vector for print and formal documentation.</p>
+            </div>
+        </div>
+
+        <!-- 2. Color Variation -->
+        <div class="col-md-6">
+            <div class="logo-card border bg-white">
+                <h5 class="mb-4">Primary Color Version</h5>
+                <img src="Images/Logo-color.png" alt="Color Logo" class="brand-logo">
+                <p class="usage-text"><strong>Configuration:</strong> Full-color branding for website headers and digital media.</p>
+            </div>
+        </div>
+
+        <!-- 3. Reverse (Dark Background) -->
+        <div class="col-md-6">
+            <div class="logo-card bg-dark-section">
+                <h5 class="mb-4">Reverse Variation</h5>
+                <img src="Images/Logo-reverse.png" alt="Reverse Logo" class="brand-logo">
+                <p class="usage-text"><strong>Configuration:</strong> Inverted white logo for dark footers and dark-mode themes.</p>
+            </div>
+        </div>
+
+        <!-- 4. Favicon Display -->
+        <div class="col-md-6">
+            <div class="logo-card border bg-white">
+                <h5 class="mb-4">Favicon (Enlarged for Preview)</h5>
+                <img src="Images/Favicon.png" alt="Favicon" class="favicon-preview mb-3">
+                <p class="usage-text"><strong>Configuration:</strong> Simplified mark for 32x32 browser tab identification.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
